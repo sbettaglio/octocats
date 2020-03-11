@@ -75,6 +75,7 @@ main {
   justify-content: space-around; */
   background-color: rgb(245, 246, 248);
   padding-top: 0.5px;
+  padding-top: 2rem;
 }
 
 main article section {
