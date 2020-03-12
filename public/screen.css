@@ -134,6 +134,95 @@ footer {
 footer div {
   background-color: rgb(248, 250, 251);
 }
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .git-back {
+    display: block;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  header img {
+    height: 4%;
+    width: 4%;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  header nav {
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 15rem;
+  }
+  .not-first {
+    background-color: rgb(255, 255, 255);
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+    border: solid 1px rgb(219, 221, 227);
+    border-radius: 10px;
+  }
+}
+@media (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .git-back {
+    display: block;
+    padding-right: 3rem;
+    padding-left: 0.5rem;
+    padding-top: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  header img {
+    height: 3%;
+    width: 3%;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  header nav {
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 35rem;
+  }
+  .not-first {
+    background-color: rgb(255, 255, 255);
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+    border: solid 1px rgb(219, 221, 227);
+    border-radius: 10px;
+  }
+  .twitter {
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
 @media (min-width: 1200px) {
   body {
     display: grid;
@@ -194,47 +283,5 @@ footer div {
     padding-top: 0.5rem;
     margin-top: 0;
     font-weight: normal;
-  }
-}
-@media (min-width: 600px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-  .git-back {
-    display: block;
-    padding-right: 2rem;
-    padding-left: 0.5rem;
-    padding-top: 1.4rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-  }
-  main {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-  }
-  header img {
-    height: 4%;
-    width: 4%;
-    padding-top: 0.5rem;
-    padding-left: 2rem;
-    padding-right: 0;
-    margin-right: 0;
-  }
-  header nav {
-    padding-left: 0;
-    margin-right: 0;
-    padding-right: 15rem;
-  }
-  .not-first {
-    background-color: rgb(255, 255, 255);
-    margin-top: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 0rem;
-    border: solid 1px rgb(219, 221, 227);
-    border-radius: 10px;
   }
 }
